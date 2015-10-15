@@ -1,9 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="185" x="95" y="77">
-    <next>
-      <block type="oled_drawtext" id="405">
-        <field name="TEXT">deez nutz dont lie</field>
-      </block>
-    </next>
+  <block type="oled_cleardisplay" id="185" x="95" y="77"></block>
+  <block type="oled_drawtext" id="405" x="172" y="120">
+    <field name="TEXT">deez nutz dont lie</field>
   </block>
 </xml>
