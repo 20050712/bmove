@@ -22,16 +22,21 @@
                     <field name="OP">ADD</field>
                     <value name="A">
                       <block type="math_number" id="297">
-                        <field name="NUM">23</field>
+                        <field name="NUM">0</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="290">
-                        <field name="NUM">12345</field>
+                        <field name="NUM">0</field>
                       </block>
                     </value>
                   </block>
                 </value>
+                <next>
+                  <block type="comment_comment" id="321">
+                    <field name="TEXT">deez nuts</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
