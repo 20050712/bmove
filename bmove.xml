@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="185" x="95" y="77">
+  <block type="oled_cleardisplay" id="185" x="211" y="96">
     <next>
       <block type="oled_drawtext" id="414">
         <field name="TEXT">deez nutz</field>
