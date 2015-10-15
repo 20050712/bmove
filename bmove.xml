@@ -2,7 +2,7 @@
   <block type="oled_cleardisplay" id="185" x="211" y="96">
     <next>
       <block type="oled_drawtext" id="414">
-        <field name="TEXT">deez nutz</field>
+        <field name="TEXT">these nuts</field>
       </block>
     </next>
   </block>
