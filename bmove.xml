@@ -37,6 +37,11 @@
                             <field name="NUM">200</field>
                           </block>
                         </value>
+                        <next>
+                          <block type="oled_drawtext" id="706">
+                            <field name="TEXT">deez nutz</field>
+                          </block>
+                        </next>
                       </block>
                     </next>
                   </block>
