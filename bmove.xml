@@ -1,6 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="controls_whileUntil" id="1" inline="false" x="-289" y="-134">
     <field name="MODE">UNTIL</field>
+    <value name="NUMBER">
+      <block type="sensor_button" id="86">
+        <field name="OBJECT">ENTER</field>
+      </block>
+    </value>
     <statement name="DO">
       <block type="controls_if" id="2" inline="false">
         <mutation elseif="1" else="1"></mutation>
@@ -55,6 +60,9 @@
                 <field name="NUM">5</field>
               </block>
             </value>
+            <next>
+              <block type="movement_left" id="102"></block>
+            </next>
           </block>
         </statement>
         <statement name="ELSE">
