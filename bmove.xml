@@ -1,29 +1,33 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="185" x="121" y="28">
+  <block type="oled_cleardisplay" id="185" x="158" y="54">
     <next>
       <block type="oled_setcursor" id="194" inline="true">
         <value name="STARTX">
-          <block type="math_random" id="269"></block>
+          <block type="math_number" id="310">
+            <field name="NUM">10</field>
+          </block>
         </value>
         <value name="STARTY">
-          <block type="math_random" id="276"></block>
+          <block type="math_number" id="317">
+            <field name="NUM">10</field>
+          </block>
         </value>
         <next>
           <block type="oled_drawtext" id="203">
-            <field name="TEXT">1000000000000000*111100029293838289</field>
+            <field name="TEXT">9+10=</field>
             <next>
               <block type="oled_drawnumber" id="227" inline="true">
                 <value name="NUMBER">
                   <block type="math_arithmetic" id="234" inline="true">
-                    <field name="OP">MULTIPLY</field>
+                    <field name="OP">ADD</field>
                     <value name="A">
-                      <block type="math_number" id="247">
-                        <field name="NUM">1111111111111111200</field>
+                      <block type="math_number" id="297">
+                        <field name="NUM">9</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="290">
-                        <field name="NUM">111111111111111100</field>
+                        <field name="NUM">10</field>
                       </block>
                     </value>
                   </block>
